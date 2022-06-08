@@ -12,8 +12,7 @@ inputs:
 
 runs:
   using: "docker"
-  image: "docker://chabad360/htmlproofer"
-  entrypoint: "/entrypoint.sh"
+  image: "Dockerfile"
 
 branding:
   icon: "check"
