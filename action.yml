@@ -9,6 +9,10 @@ inputs:
   arguments:
       description: "HTMLProofer options"
       required: false
+  output_file:
+      description: "Specify this if you want the output to be generated into a file. For later use."
+      required: false
+      default: "htmlproofer_results.txt"
 
 runs:
   using: "docker"
