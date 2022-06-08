@@ -8,4 +8,4 @@ echo "Running htmlproofer with arguments ${INPUT_ARGUMENTS}"
 echo "Export the result into a file ${INPUT_OUTPUT_FILE}"
 
 #echo ${INPUT_ARGUMENTS} | xargs htmlproofer "${INPUT_DIRECTORY}" >> ${INPUT_OUTPUT_FILE} 2>$1
-htmlproofer "${INPUT_DIRECTORY}" ${INPUT_ARGUMENTS} >& ./htmlproofer_results.txt
+htmlproofer "${INPUT_DIRECTORY}" ${INPUT_ARGUMENTS} >& ${INPUT_OUTPUT_FILE}
