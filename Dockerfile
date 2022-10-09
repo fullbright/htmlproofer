@@ -1,4 +1,4 @@
-FROM ruby:2.6-alpine
+FROM ruby:alpine
 
 COPY --chown=0:0 ./entrypoint.sh /entrypoint.sh
 
